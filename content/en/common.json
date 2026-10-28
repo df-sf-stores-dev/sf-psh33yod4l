@@ -1,4 +1,8 @@
 {
+  "promo": {
+    "label": "Announcement",
+    "text": "Celebrate Diwali with our festive collection"
+  },
   "nav": {
     "label": "Main",
     "menu": "Menu",

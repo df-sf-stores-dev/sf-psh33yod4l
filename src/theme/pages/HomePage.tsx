@@ -26,13 +26,13 @@ export const HomePage = () => {
         </div>
         <div className={styles.picture} />
       </section>
-      <section className={styles.diwali} aria-label="Diwali sale">
+      <section className={styles.diwali} aria-label={t('home.diwali.label')}>
         <div className={styles.diwaliInner}>
-          <p className={styles.diwaliKicker}>✨ Big Bang Diwali ✨</p>
-          <h2 className={styles.diwaliTitle}>Sale is Live</h2>
-          <p className={styles.diwaliSub}>Lowest prices guaranteed — up to 60% off this festive season</p>
+          <p className={styles.diwaliKicker}>{t('home.diwali.kicker')}</p>
+          <h2 className={styles.diwaliTitle}>{t('home.diwali.title')}</h2>
+          <p className={styles.diwaliSub}>{t('home.diwali.text')}</p>
           <Link href="/collections/all/" className={styles.diwaliCta}>
-            Shop the sale
+            {t('home.diwali.cta')}
           </Link>
         </div>
       </section>

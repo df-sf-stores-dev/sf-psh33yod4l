@@ -6,6 +6,13 @@
     "shop": "Shop now",
     "story": "Our story"
   },
+  "diwali": {
+    "label": "Diwali celebration",
+    "kicker": "Happy Diwali",
+    "title": "The festive edit is here",
+    "text": "Gifts and favourites for the season of lights.",
+    "cta": "Shop the collection"
+  },
   "story": {
     "eyebrow": "Our story",
     "title": "Who we are",
