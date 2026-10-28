@@ -11,6 +11,9 @@ export const Layout = ({ children }: { children: ReactNode }) => {
   return (
     <div className={styles.shell}>
       {mode === 'live' ? null : <PreviewBanner t={t} className={styles.preview} />}
+      <div className={styles.promo} role="region" aria-label="Announcement">
+        Free shipping on orders over $50 — shop now
+      </div>
       <header className={styles.header}>
         <div className={styles.bar}>
           <Link href="/" className={styles.brand}>
