@@ -26,6 +26,16 @@ export const HomePage = () => {
         </div>
         <div className={styles.picture} />
       </section>
+      <section className={styles.diwali} aria-label="Diwali sale">
+        <div className={styles.diwaliInner}>
+          <p className={styles.diwaliKicker}>✨ Big Bang Diwali ✨</p>
+          <h2 className={styles.diwaliTitle}>Sale is Live</h2>
+          <p className={styles.diwaliSub}>Lowest prices guaranteed — up to 60% off this festive season</p>
+          <Link href="/collections/all/" className={styles.diwaliCta}>
+            Shop the sale
+          </Link>
+        </div>
+      </section>
       <section className={styles.story}>
         <div className={styles.storyPicture} />
         <div className={styles.storyCopy}>
